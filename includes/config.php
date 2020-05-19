@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','db-prd-1-studev-1.mysql.database.azure.com');
-define('DB_USER','k030467j@db-prd-1-studev-1');
-define('DB_PASS','ygX7utn6vo');
-define('DB_NAME','k030467j');
+define('DB_HOST','');
+define('DB_USER','');
+define('DB_PASS','');
+define('DB_NAME','');
 $options = array(
    PDO::MYSQL_ATTR_SSL_CA => __DIR__.'/BaltimoreCyberTrustRoot.crt.pem'
 );
